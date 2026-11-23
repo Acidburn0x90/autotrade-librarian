@@ -1,0 +1,11 @@
+# Gradle & build outputs
+.gradle/
+build/
+gradle-*/
+*.jar
+
+# Editors, OS & graphify
+.idea/
+.vscode/
+.DS_Store
+graphify-out/

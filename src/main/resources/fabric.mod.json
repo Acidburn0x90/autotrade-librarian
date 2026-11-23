@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "autotradelibrarian",
+  "version": "${version}",
+  "name": "Auto Trade Librarian",
+  "description": "Automates finding specific enchanted book trades.",
+  "authors": [
+    "Gemini CLI"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://example.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/autotradelibrarian/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.autotrade.AutoTradeClient"
+    ]
+  },
+  "mixins": [
+    "autotradelibrarian.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "26.1.x",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
